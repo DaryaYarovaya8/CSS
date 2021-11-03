@@ -1,0 +1,75 @@
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: auto;
+}
+.title{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 70px;
+    margin-bottom: auto;
+}
+.list{
+    line-height: 40px;
+    text-decoration-color: black ;
+    background-color: rgb(221, 210, 250);
+    margin-top: auto;
+}
+.list li{
+    list-style: none;
+    display: inline-block;
+}
+.list li a{
+    display: inline-block;
+    width: 125px;
+    text-decoration: none;
+}
+.left{
+    display: inline-block;
+    width: 25%;
+}
+.left li a{
+    text-decoration: none;
+}
+.right{
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+   text-align: center;
+}
+.rating{
+    list-style: none;
+}
+footer{
+    text-align: center;
+    background-color: rgb(221, 210, 250);
+}
+body{
+    background-color: papayawhip;
+    margin: auto;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: rgb(92, 20, 118);
+    font-size: 15px;
+}
+.list li a:hover{
+    color: red;
+    cursor: pointer;
+}
+.left li a:hover{
+    color: red;
+    cursor: pointer;
+}
+h1, h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+h2{
+    padding-left: 14px;
+}
